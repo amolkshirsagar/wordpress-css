@@ -1,0 +1,151 @@
+/*Marquee tag for event scroll*/
+<marquee id="scroll_news" onmouseout="document.getElementById('scroll_news').start();" onmouseover="document.getElementById('scroll_news').stop();" scrollamount="10" scrolldelay="16"><p>Ruby Hall Clinic Wishes you Happy & Healthy Life</p></marquee>
+
+marquee#scroll_news p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    /*background: linear-gradient(to right,#FF9933,#ffffff,#ffffff,#108806,#108806,#108806,#108806);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+}
+
+/*light box shadow css*/
+img.img-with-animation[data-shadow="small_depth"], .wpb_column[data-shadow="small_depth"], .nectar_cascading_images .cascading-image[data-shadow="small_depth"] .img-wrap, .nectar_cascading_images .cascading-image[data-shadow="small_depth"] .bg-color, .nectar-video-box[data-shadow="small_depth"]:before, .nectar-flickity[data-shadow="small_depth"] div.cell {
+    box-shadow: 0 11px 28px rgba(24, 52, 187, 0.08), 0 7px 10px rgba(22, 67, 140, 0.08);
+}
+
+/* four and three column css */
+.max-width-centered-div{
+    max-width:75%;
+    margin:0 auto;
+}
+
+
+/*three and two columns css 1/3 1/3 1/3*/
+.main-row{
+    max-width: 80%;
+    margin: 0 auto;}
+
+ /*two columns css 1/6 1/3 1/3 1/6*/  
+.minimum-row{
+    max-width: 80%;
+    margin: 0 auto;}
+
+/*Captcha CSS / Name Really Simple CAPTCHA / Version 2.0.2 | By Takayuki Miyoshi | View details*/
+
+<p Style="float:left; margin-right:1%; width:20%;">
+Enter Captcha</p>
+
+<p Style="float:left; margin-right:1%; width:20%;">
+[captchar captcha-170 4/4]</p>
+
+<p Style="float:left; margin-right:1%; width:20%;">
+[captchac captcha-170]</p>
+
+
+/*placeholder css*/
+	<img src="http://via.placeholder.com/600x400">
+
+
+/* overflow scroll css */
+
+.key-feature-tab{
+    overflow: scroll;
+    height: 500px;
+}
+
+
+/* inner hero img height css */
+
+.inner-hero-section {
+    min-height: 65vh !important;
+    display: flex;
+    align-items: center;
+}
+
+/* bottom text for fancy box css */
+
+.bottom-text-fancy-box .meta-wrap .inner,.bottom-text-fancy-box.border-box .nectar-fancy-box .inner .bottom-txt {position: absolute;bottom: 0;}
+
+
+
+
+/* text gradient css*/
+
+h5{
+    background: -webkit-linear-gradient(330deg,#38ab00,#0060b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* border left css */
+
+.border-column{position:relative;}
+.border-column:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 2px;
+    background: #dfdfdf;
+    position: absolute;
+    left: -9.1%;
+}
+
+
+
+/* table responsive css */
+
+	style="overflow-x: auto;"
+
+
+/* image fix size css */
+
+<img class="alignnone wp-image-90322" style="width: 100px;" src="/wp-content/uploads/2019/04/ONE-PLATFORM-300x292.png" alt="" width="300" height="82" />
+
+
+/* Popup background-padding css */
+
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
+    padding-right: 0px;
+}
+
+/* icon color change on hover */
+
+.fa-circle-o:before {
+    content: "\f10c";
+    background: url(/wp-content/uploads/2019/08/visibility-ico.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: top center !important;
+    color: #3330 !important;
+}
+
+.fa-circle-o:hover:before {
+    background: url(/wp-content/uploads/2019/08/visibility-white-ico.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: top center !important;
+}
+
+
+
+
+/* Read More, Read Less css-Add Show More Plugin*/
+
+<p style="text-align: left;">The Hero Group, now "A household name in India" and one of the leading business conglomerate in the country, saw its beginning in 1950 when four Munjal brothers shifted to Ludhiana from Kamalia (now in Pakistan). As first generation founders, they had started with manufacturing of bicycle components at Ludhiana in North India.</p>
+
+<div class="show_more">
+<p class="wpsm-show" style="color: #00bbc6; font-size: 100%; text-align: left;"><span style="color: #00bbc6;"><strong>Read More ...</strong></span></p>
+
+<div class="wpsm-content wpsm-content-hide">
+<p style="text-align: left;">Today, the group founded by Late Dr Brijmohan Lall Munjal has come across a long way. Diversified and across more than six industry verticals comprising Automotive &amp; Auto Components, Financial Services, Renewable Energy, Electronics &amp; IT Enabled Services, Higher Education &amp; Training and Real Estate. Committed to delivering outstanding products and services and fostering customer satisfaction, Hero Group has touched millions of lives in India.</p>
+The company also has been conducting its business in more than 35 countries. It aims to achieve its vision to strengthen the focus on mobility, technology and creating a global footprint, with Hero MotoCorp, the group's flagship company and a world leader in motorcycles participating shoulder to shoulder in the growth of the country by providing mobility to millions of people of India.
+<p class="wpsm-hide" style="color: #00bbc6; font-size: 100%; text-align: left;"><span style="color: #00bbc6;"><strong>Read Less ...</strong></span></p>
+
+</div>
+</div>
+
+/* Read More, Read Less css-Add Show More Plugin end*/
+
